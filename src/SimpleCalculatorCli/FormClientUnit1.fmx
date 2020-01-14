@@ -1,0 +1,70 @@
+object Form26: TForm26
+  Left = 0
+  Top = 0
+  Caption = 'Form26'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Button1: TButton
+    Height = 44.000000000000000000
+    Position.X = 32.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 1
+    Text = 'Reverse'
+    Width = 73.000000000000000000
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Text = 'Text to reverse'
+    Position.X = 152.000000000000000000
+    Position.Y = 40.000000000000000000
+    Width = 193.000000000000000000
+    Height = 32.000000000000000000
+  end
+  object EditA: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Text = '5'
+    Position.X = 32.000000000000000000
+    Position.Y = 136.000000000000000000
+    Width = 97.000000000000000000
+    Height = 32.000000000000000000
+  end
+  object EditB: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Text = '2'
+    Position.X = 32.000000000000000000
+    Position.Y = 200.000000000000000000
+    Width = 97.000000000000000000
+    Height = 32.000000000000000000
+  end
+  object ButtonAdd: TButton
+    Height = 44.000000000000000000
+    Position.X = 168.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 5
+    Text = '+'
+    Width = 73.000000000000000000
+    OnClick = ButtonAddClick
+  end
+  object ButtonSub: TButton
+    Height = 44.000000000000000000
+    Position.X = 168.000000000000000000
+    Position.Y = 192.000000000000000000
+    TabOrder = 6
+    Text = '-'
+    Width = 73.000000000000000000
+    OnClick = ButtonSubClick
+  end
+end
